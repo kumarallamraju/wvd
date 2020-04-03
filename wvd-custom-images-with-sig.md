@@ -14,11 +14,7 @@ https://github.com/markhooks81/RDS-Templates/tree/master/wvd-templates/Create%20
 
 You can directly deploy this ARM template in to your Azure subscription. I have pasted the screenshots below.
 
-![screen1]("files/file1.jpg")
-
-![screen2]("files/file2.jpg")
-
-![screen3]("files/file3.jpg")
+![screen1]("https://github.com/kumarallamraju/wvd/blob/master/files/file1.png")
 
 
 As I understamd from our product management, we plan to support Shared Image Galleries in the Azure Portal in the Spring'20 time frame.
