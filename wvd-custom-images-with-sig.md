@@ -1,15 +1,16 @@
-**How to provision a WVD host pool with a custom image via Shared Image Galleries?**
+
+<span style="color:red;"><font size="4">**How to provision a WVD host pool with a custom image via Shared Image Galleries?**</font></span>
 
 ***Usecase:***
 I was working with a customer in which they built a master image for their WVD deployments. However the image was built in 
-region-1 (eastus) but wanted to deploy the hostpools in different Azure regions. The recommended practice is to use
-Shared Image Galleries to replicate the custom images to the target regions (e.g westus, centralus etc..)
+region-1 (e.g. eastus) but wanted to deploy the hostpools in different Azure regions. The recommended practice is to use
+[Shared Image Galleries](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/shared-image-galleries) to replicate the custom images to the target regions (e.g westus, centralus etc..)
 
-As of today there is no option to provision a WVD host pool for the custom images available in Shared Image Galleries. 
+As of today there is no GUI option in Azure Portal to provision a WVD host pool for the custom images available in Shared Image Galleries. 
 Our WVD Azure PG worked on an ARM template that can be used to provision the host pool in which the custom image is available
 via S.I.G.
 
-You will find ARM template at [this github repo](
+You will find the ARM template at [this github repo](
 https://github.com/markhooks81/RDS-Templates/tree/master/wvd-templates/Create%20and%20provision%20WVD%20host%20pool)
 
 You can directly deploy this ARM template in to your Azure subscription. I have pasted the screenshots below.
