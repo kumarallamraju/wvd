@@ -1,5 +1,5 @@
 
-#How to push new custom images to an existing WVD host pool?
+<span style="color:red;"><font size="4">**How to push new custom images to an existing WVD host pool?**</font></span>
 
 ***Usecase:***
 One of my team members asked me if there's a way to push new custom images to an existing WVD host pool. I didn't have an answer right off the bat but felt this was a good use case to explore.
